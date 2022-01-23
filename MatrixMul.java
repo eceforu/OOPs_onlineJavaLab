@@ -8,14 +8,10 @@ class MatrixMul
     Scanner sc = new Scanner(System.in);
     System.out.println("Enter the Size of the matrix1:");
     m1=sc.nextInt();
-    sc.nextLine();
     n1=sc.nextInt();
-    sc.nextLine();
     System.out.println("Enter the Size of the matrix2:");
     m2=sc.nextInt();
-    sc.nextLine();
     n2=sc.nextInt();
-    sc.nextLine();
     int A[][]=new int[m1][n1];
     int B[][]=new int[m2][n2];
     int C[][]=new int[m1][n2];
@@ -29,7 +25,6 @@ class MatrixMul
             for(int j=0;j<n1;j++)
             {
                 A[i][j]=sc.nextInt();
-                sc.nextLine();
             }
         }
         System.out.println("Enter the value of Matrix2");
@@ -38,8 +33,7 @@ class MatrixMul
             for(int j=0;j<n2;j++)
             {
                 B[i][j]=sc.nextInt();
-                sc.nextLine();
-            }
+             }
         }
         System.out.println("Enter the value of Resultant Matrix");
         for(int i=0;i<m1;i++)
