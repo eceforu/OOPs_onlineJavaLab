@@ -56,8 +56,7 @@ class Manager extends Member
 {
     private String specialization;
     private String department;
-    public Manager(String name, int age, String phoneNumber,
-                    String address, double salary,String specialization, String department)
+    public Manager(String name, int age, String phoneNumber,String address, double salary,String specialization, String department)
         {
         super(name, age, phoneNumber, address, salary);
         this.specialization=specialization;
